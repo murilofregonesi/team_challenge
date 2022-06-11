@@ -15,3 +15,12 @@ def execution_time(func):
         return result
 
     return wrapper
+
+def is_positive(value:int) -> bool:
+    """Validates positive integer.
+    Args:
+        value (int): Value to be validated
+    Return:
+        True if positive integer, false otherwise
+    """
+    return isinstance(value, int) and value > 0

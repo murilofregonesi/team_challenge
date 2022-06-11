@@ -9,7 +9,7 @@ pipenv install
 ```
 
 ### Running
-To run the basic tests, on the repository root, run:
+To run basic tests for code evaluation, on the repository root, run:
 ```
 python run.py
 ```
@@ -18,4 +18,9 @@ To interact via Python terminal, on the repository root, run:
 ```
 python
 from data_capture.data_capture import DataCapture
+```
+
+To run unittests, on the repository root, run:
+```
+python -m unittest discover
 ```
